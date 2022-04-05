@@ -1,0 +1,265 @@
+  :root {
+    --primary-white-color: #ffffff;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --text-color: #757575;
+    --background-color-wan: #2F303A;
+    --backgroynd-color-two: #F5F4FA;
+  }
+  
+  body {
+    background-color: var(--primary-white-color);
+    color: var(--title-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  .links {
+    text-decoration: none;
+  
+   } 
+   
+
+  /* логотип */
+  .logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19; 
+    text-decoration: none;
+    color:var(--title-text-color);
+  }
+  
+  .logo-color {
+    color: var(--accent-color); 
+  }
+  
+
+
+  /* навигація */
+  
+  .site-nav .link {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+  }
+  
+  .site-nav .link-now{
+    color:  var(--accent-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+  }
+  
+
+  /* герой */
+  .hero {
+    background-color: var(--background-color-wan);
+    background-size: 1600px 600px;
+  }
+
+  .hero-title {
+    color: var(--primary-white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  
+  .button {
+    border-radius: 3px;
+    color: var(--title-text-color);
+    background-color: var(--primary-white-color);
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+  }
+    
+  .button.primary-top {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    border-color:var(--accent-color);
+  }
+
+  .button.primary {
+    color:var(--accent-color);
+    background-color: var(--primary-white-color);
+    border-color: transparent;
+  }
+
+  .button.primary:hover {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    border-color:var(--accent-color);
+  }
+
+  .button.secondary {
+     color: var(--accent-color);
+     background-color: var(--primary-white-color);
+     border-color: var(--accent-color);
+  }
+  
+  .button.tell {
+    color:var(--text-color);
+    background-color:var(--primary-white-color);
+  }
+
+  .button.tell:hover {
+    color: var(--accent-color);
+    background-color: var(--primary-white-color);
+    border-color: var(--accent-color);
+  }
+  
+  .list {
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  
+  /* Особливості */
+  
+  .section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.167;
+    text-align: center;
+  }
+  
+ 
+  .feature-list {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase; 
+  }
+  
+  
+  .p-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--text-color) ;
+  }
+  
+  
+/* команда*/
+  
+  .comand {
+    background-color: #F5F4FA;
+    background-size: 1600px 650px;
+  }
+
+  .comand-list .list{
+    font-size: 16px;
+    line-height: 1.19;
+
+  }
+  
+  .comand-name {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+  }
+  
+  .p-name {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    color: #757575;
+  }
+  
+
+
+  .fon {
+    background-color:#2F303A;
+  }
+
+
+  .address {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;  
+    letter-spacing: 0.03em;
+  }
+
+  .logo-footer {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19; 
+    text-decoration: none;
+    color:var(--backgroynd-color-two);
+  }
+
+  .address .p-text {
+    color:var(--primary-white-color);
+  }
+
+  .p-text.rgba {
+    color: rgba(255, 255, 255, 0.6)
+  }
+
+
+  /* портфоліо */
+
+  .button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    border: 2px solid black;
+    border-radius: 4px;
+    border-color: var(--primary-white-color);
+    background-color: #F5F4FA;
+  }
+
+  .button:active {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+  }
+
+  .button.menu:hover,
+  .button.menu:focus {
+    border-color: var(--accent-color);  
+  }
+
+  .services-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    
+  }
+
+  .services-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    color:var(--text-color)
+  }
+
+
+
+
+
+
