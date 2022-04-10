@@ -29,7 +29,8 @@ h1,h2,h3,h4,p{
 .container {
   margin-right: auto;
   margin-left: auto;
-  width: 1170px;
+  max-width: 1170px;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -120,7 +121,6 @@ h1,h2,h3,h4,p{
   color:  var(--accent-color);
 }
  
-
 .menu-link.active{
   color:  var(--accent-color);
   font-weight: 500;
@@ -131,7 +131,6 @@ h1,h2,h3,h4,p{
 }
 
 /* button */
-
 .button {
   color:#757575;
   font-family: Roboto, sans-serif;
@@ -177,10 +176,6 @@ h1,h2,h3,h4,p{
   text-align: center;
 }
 
-/* .hero {
-
-} */
-
 .hero-title {
   color: var(--primary-white-color);
   font-weight: 900;
@@ -207,7 +202,12 @@ h1,h2,h3,h4,p{
 
 .section-title.feature {
   visibility: hidden;
- }
+  margin-bottom: -30px;
+}
+
+.section.feature {
+  padding-top: 94px;
+}
 
 .feature-list {
   font-family: 'Roboto';
@@ -227,10 +227,6 @@ h1,h2,h3,h4,p{
   line-height: 1.71;
   letter-spacing: 0.03em;
   color:var(--text-color);
-}
-
-.specifics {
-  margin-top: 94px;
 }
 
 .works {
@@ -287,7 +283,6 @@ h1,h2,h3,h4,p{
   line-height: 1.19;
   color:var(--title-text-color);
 }
-
 
 .address {
   font-family: 'Roboto';
@@ -365,7 +360,6 @@ h1,h2,h3,h4,p{
   margin-right: 8px;
 
 }
-
 
 .services-list {
 
