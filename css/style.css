@@ -13,6 +13,7 @@ body {
   letter-spacing: 0.03em;
   margin: 0;
   padding: 0;
+  background-color: var(--backgroynd-color-two);
   
 }
 
@@ -36,6 +37,7 @@ h1,h2,h3,h4,p{
   margin: 0 auto;
 
 }
+
 
 /* heder */
 .hed {
@@ -191,6 +193,7 @@ h1,h2,h3,h4,p{
 
 /* end hero */
 
+
 .list {
   display: flex;
 
@@ -253,6 +256,23 @@ h1,h2,h3,h4,p{
   padding-bottom: 94px;
 }
 
+
+/*  команда */
+
+.comand {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.comand-item {
+  text-align: center;
+
+  background:var(--primary-white-color);
+
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+
 .section-title-comand {
   font-weight: 700;
   font-size: 36px;
@@ -261,19 +281,19 @@ h1,h2,h3,h4,p{
   letter-spacing: 0.03em;
 
   color:var(--title-text-color);
-  padding-top: 94px;
+
   margin-bottom: 50px;
 }
+
 
 .comand-list {
   display: flex;
   align-items: center;
-  justify-content:space-between;
-  padding-bottom: 94px;
+  justify-content:space-between; 
 }
 
-.comand-item {
-  text-align: center;
+.foto {
+  margin-bottom: 30px;
 }
 
 .comand-name {
@@ -281,7 +301,17 @@ h1,h2,h3,h4,p{
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  margin-bottom: 10px;
   color:var(--title-text-color);
+}
+
+.p-name {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  margin-bottom: 30px;
+  color: #757575;
 }
 
 .address {
@@ -293,14 +323,6 @@ h1,h2,h3,h4,p{
   letter-spacing: 0.03em;
   text-align: left;
   padding-bottom: 60px;
-}
-
-.p-name {
-  font-family: 'Roboto';
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.19;
-  color: #757575;
 }
 
 .p-text {
