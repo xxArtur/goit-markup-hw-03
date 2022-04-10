@@ -51,7 +51,6 @@ h1,h2,h3,h4,p{
   list-style: none;
 }
 
-
 .logo {
   display: flex;
   text-decoration: none;
@@ -62,7 +61,6 @@ h1,h2,h3,h4,p{
   line-height: 1.19; 
   padding: 24px 0 25px 0;
   
-
   color:var(--title-text-color);
   
 }
@@ -93,8 +91,6 @@ h1,h2,h3,h4,p{
   margin-left: 0;
   margin-right: 50px;
 }
-
-
 
 .main-nav {
   display: flex;
@@ -229,7 +225,6 @@ h1,h2,h3,h4,p{
   color:var(--text-color);
 }
 
-
 .specifics {
   margin-top: 94px;
 }
@@ -257,7 +252,6 @@ h1,h2,h3,h4,p{
   justify-content:space-between;
   padding-bottom: 94px;
 }
-
 
 .section-title-comand {
   font-weight: 700;
