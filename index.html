@@ -12,7 +12,7 @@
 </head>
 <body>
 
-    <header class="hed">
+    <header class="section-hed">
          <!--Шапка-->
         <div class="container">
             <div class="header-inner">
@@ -24,20 +24,18 @@
                         <li class="menu-item"><a class="menu-link " href="">Контакты</a></li>
                     </ul>
                 </nav>
-        
                     <ul class="main-nav list">
                         <li class="item"><a href="mailto:info@devstudio.com" class="button primary">info@devstudio.com</a></li>
                         <li class="item"><a href="tel:+380961111111" class="button tell">+38(096)111 11 11</a></li>
                     </ul>
             </div>
         </div> 
-
     </header>
 
     <main >
 
         <!--Заголовок-->
-        <section class="section fon">
+        <section class="section-fon">
         <div class="container hero">
         
             <h1 class="hero-title">Эффективные решения <br> для вашего бизнеса</h1>
@@ -47,81 +45,83 @@
         </section>
 
         <!--Особливості-->
-        <div class="container">
         <section class="section feature">
-            <h2 class="section-title feature">Особености</h2>
+            <div class="container">
+            <h2 class="section-title-feature">Особености</h2>
                 <ul class="list specifics">
-                    <li class="item">
+                    <li class="item-feature">
                         <h3 class="feature-list">Внимание к деталям</h3>
                         <p class="p-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                     </li>
-                    <li class="item">
+                    <li class="item-feature">
                         <h3 class="feature-list">Пунктуальность</h3>
                         <p class="p-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                     </li>
-                    <li class="item">
+                    <li class="item-feature">
                         <h3 class="feature-list">Планирование</h3>
                         <p class="p-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                     </li>
-                    <li class="item">
+                    <li class="item-feature">
                         <h3 class="feature-list">Современные технологии</h3>
                         <p class="p-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
                 </ul>
+            </div>
         </section>
-        </div>
-
+      
         <!--Чем ми занимаемся-->
-        <div class="container">
         <section class="section works">
+            <div class="container">
             <h2 class="section-title-works">Чем мы занимаемся</h2>
                 <ul class="list working">
                     <li><a href=""><img src="./images/computer.jpg" alt="комп'ютер" width="370"></a></li>
                     <li><a href=""><img src="./images/mobile.jpg" alt="мобільний" width="370"></a></li>
                     <li><a href=""><img src="./images/tablet.jpg" alt="планшет" width="370"></a></li>
-                </ul>       
+                </ul>  
+            </div>     
         </section>
-        </div>
-
-        <!--Наша команда-->
+        
+        <!--Наша команда-->  
+        <section class="section comand">
         <div class="container">
-            <section class="section comand">
             <h2 class="section-title-comand">Наша команда</h2>
             <ul class="comand-list">
                 <li class="comand-item">
-                     
-                        <img class="foto" src="./images/igor.jpg" alt="Игорь Демьяненко" width="270">
-                        <h3 class="comand-name">Игорь Демьяненко</h3>
-                        <p class="p-name">Product Designer</p>
+                    <img class="foto" src="./images/igor.jpg" alt="Игорь Демьяненко" width="270">
+                        <div class="name-container">
+                            <h3 class="comand-name">Игорь Демьяненко</h3>
+                            <p class="p-name">Product Designer</p>
+                        </div>
                 </li>
                 <li class="comand-item">
-                    
-                        <img class="foto" src="./images/olga.jpg" alt="Ольга Репина" width="270">
-                        <h3 class="comand-name">Ольга Репина</h3>
-                        <p class="p-name">Frontend Developer</p>       
-                    
+                    <img class="foto" src="./images/olga.jpg" alt="Ольга Репина" width="270">
+                        <div class="name-container">
+                            <h3 class="comand-name">Ольга Репина</h3>
+                            <p class="p-name">Frontend Developer</p>       
+                        </div>
+                </li>
+                <li class="comand-item">        
+                    <img class="foto" src="./images/nicholas.jpg" alt="Николай Тарасов" width="270">
+                        <div class="name-container">
+                            <h3 class="comand-name">Николай Тарасов</h3>
+                            <p class="p-name">Marketing</p> 
+                        </div>
                 </li>
                 <li class="comand-item">
-                     
-                        <img class="foto" src="./images/nicholas.jpg" alt="Николай Тарасов" width="270">
-                        <h3 class="comand-name">Николай Тарасов</h3>
-                        <p class="p-name">Marketing</p> 
-                </li>
-                <li class="comand-item">
-                     
-                        <img class="foto" src="./images/michael.jpg" alt="Михаил Ермаков" width="270">
-                        <h3 class="comand-name">Михаил Ермаков</h3>
-                        <p class="p-name">UI Designer</p>  
-                </li>         
+                    <img class="foto" src="./images/michael.jpg" alt="Михаил Ермаков" width="270">
+                        <div class="name-container">
+                            <h3 class="comand-name">Михаил Ермаков</h3>
+                            <p class="p-name">UI Designer</p> 
+                        </div> 
+                </li>    
             </ul>
-        
-        </section> 
         </div>
-
+        </section> 
+        
     </main>
 
     <!-- Підвал -->
-    <footer class="fon">
+    <footer class="section-footer">
         <div class="container">
             <a href="" class="logo footer"><span class="logo-color">Web</span>Studio</a>
             <div class="address">
@@ -132,5 +132,5 @@
         </div>  
     </footer>
       
-    </body>
+</body>
 </html>
