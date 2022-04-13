@@ -87,7 +87,7 @@ h1,h2,h3,h4,p{
 }
 
 .p-text {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -171,8 +171,8 @@ h1,h2,h3,h4,p{
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
   text-decoration: none;
 }
   
@@ -371,8 +371,7 @@ border-radius: 0px 0px 4px 4px;
   padding:  6px 22px;
   border-radius: 4px;
   border: 0;
-  background-color: var(--primary-white-color);
-  /* background-color: var(--backgroynd-color-two); */
+  background-color: var(--backgroynd-color-two);
 }
 
 .button.menu.active {
@@ -393,7 +392,6 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .services-list {
-
   display: flex;
   flex-wrap: wrap;
 }
@@ -402,6 +400,11 @@ border-radius: 0px 0px 4px 4px;
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
+ 
+}
+
+.services-item img {
+  display: block;
 }
 
 .services-item:nth-child(3n) {
@@ -415,6 +418,7 @@ border-radius: 0px 0px 4px 4px;
 .services-section {
   padding: 20px 24px;
   border: 1px solid #ECECEC;
+  border-top: 0;
 }
 
 .services-name {
